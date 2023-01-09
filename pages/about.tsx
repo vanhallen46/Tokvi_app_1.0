@@ -16,7 +16,7 @@ export default function aboutPage() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Ir a <a href="/">Home</a>  
+                    Ir a <a href="">Home</a>  
                 </h1>
                 
                 <p className={styles.description}>

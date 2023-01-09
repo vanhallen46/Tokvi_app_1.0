@@ -1,5 +1,5 @@
 import styles from "../styles/navbar.module.css";
-
+import Image from 'next/image'
 import '@rainbow-me/rainbowkit/styles.css';
 import {
   getDefaultWallets,
@@ -72,18 +72,18 @@ export default function navbar() {
             <section className={styles.filter_buttons}>
                 
                     <div className={styles.card_icon}>
-                        <img src="https://cdn-icons-png.flaticon.com/512/2857/2857088.png" alt="icono bolsa de dinero" />
+                        <Image src="https://cdn-icons-png.flaticon.com/512/2857/2857088.png" alt="icono bolsa de dinero" />
                     </div>
                     
                     <div className={styles.card_icon}>
-                        <img src="https://cdn-icons-png.flaticon.com/512/3311/3311693.png" alt="icono reloj" />
+                        <Image src="https://cdn-icons-png.flaticon.com/512/3311/3311693.png" alt="icono reloj" />
                     </div>
                     
                     <div className={styles.card_icon}>
-                        <img src="https://cdn-icons-png.flaticon.com/512/610/610128.png" alt="icono grafico de crecimiento" />
+                        <Image src="https://cdn-icons-png.flaticon.com/512/610/610128.png" alt="icono grafico de crecimiento" />
                     </div>
                     <div className={styles.card_icon}>
-                        <img src="https://cdn-icons-png.flaticon.com/512/603/603148.png" alt="icono grafico torta" />
+                        <Image src="https://cdn-icons-png.flaticon.com/512/603/603148.png" alt="icono grafico torta" />
                     </div>
             </section>
             <section className={styles.buttons_text}>
