@@ -1,0 +1,147 @@
+.nav_main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 1px solid var(--very-lite-pink);
+    background-color: white;
+}
+.menu {
+    display: none;
+}
+.logo {
+    width: 100px;
+}
+.navbar_left ul, 
+.navbar_right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.navbar_left {
+    display: flex;   
+}
+.navbar_left h2 {
+    padding-top: 15px;
+}
+.navbar_left ul {
+    margin-left: 12px;
+}
+.navbar_left ul li a, 
+.navbar_right ul li a {
+    text-decoration: none;
+    color: var(--very-lite-pink);
+    border: 1px solid var(--white);
+    padding: 8px;
+    border-radius: 8px;
+}
+.navbar_left ul li a:hover, 
+.navbar_right ul li a:hover {
+    color: var(--hospital-green);
+    border: 1px solid var(--hospital-green);
+}
+.navbar_email {
+    color: var(--very-lite-pink);
+    font-size: var(--md);
+    margin-right: 12px;
+    cursor: pointer;
+}
+.navbar_shopping_cart {
+    position: relative;
+    cursor: pointer;
+}
+.navbar_shopping_cart div {
+    width: 8px;
+    height: 8px;
+    background-color: var(--hospital-green);
+    border-radius: 50%;
+    font-size: var(--sm);
+    font-weight: bold;
+    position: absolute;
+    top: -6px;
+    right: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_container {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+
+}
+.main_container h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+.filter_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    
+}
+  
+.card_icon {
+    
+    width: 3rem;
+    height: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.6rem 0 0.2rem;
+    
+}
+.card_icon img {
+    position: relative;
+    box-sizing: border-box;
+    left: 30px;
+    width: 36px;
+}
+
+.buttons_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center; 
+    height: 20px;
+    
+}
+.card_text {
+    width: 3rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.6rem 0 0.2rem;
+}
+.card_text p {
+    position: relative;
+    box-sizing: border-box;
+    width: 30px;
+    left: 30px;
+    margin-top: 5px;
+}
+
+.wallet_button {
+    padding-top: 10px;
+}
+
+
+.main_filters {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0px;
+    display: flex;
+    height: 60px;
+}
+.main_filters ul li div{
+    padding: 10px;
+}
+  
