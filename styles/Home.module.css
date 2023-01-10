@@ -102,7 +102,6 @@
 
   .grid {
     grid-template-columns: 1fr;
-    margin-bottom: 120px;
     max-width: 320px;
     text-align: center;
   }
@@ -193,6 +192,7 @@
   justify-content: center;
   align-items: center;
   background-color: #acd9b2;
+  padding-bottom: 4.3rem;
 }
 
 .card_container {
@@ -280,10 +280,11 @@
 .filter_buttons {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   height: 50px;
   background-color: white;
+  width: 100vw;
 }
 .card_icon {
   width: 3rem;
@@ -293,11 +294,13 @@
   justify-content: center;
   align-items: center;
   margin: 0 0.6rem 0 0.2rem;
+  
 }
 .card_icon img {
   position: relative;
   box-sizing: border-box;
-  left: 30px;
+  left: 0px;
   width: 36px;
 }
+
 
