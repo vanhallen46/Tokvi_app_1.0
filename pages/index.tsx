@@ -60,9 +60,9 @@ export default function Home() {
     ];
 
   const listUsersTag = listUsers.map((el, index) => <div key={`user_${index}`} className={styles.card_container}>
-    {/* <div className={styles.card_img}>
+    <div className={styles.card_img}>
       <img src={el.logo} />
-    </div> */}
+    </div>
 
     <b>{el.name}</b><br/>
 
@@ -160,22 +160,22 @@ export default function Home() {
 
             <section className={styles.filter_buttons}> 
                     <div className={styles.card_icon}>
-                        <Image src="https://img.icons8.com/emoji/512/heart-suit.png" alt="icono corazón" />
+                        <Image src="https://img.icons8.com/emoji/512/heart-suit.png" alt="icono corazón" width={36} height={36}/>
                     </div>
                     
                     <div className={styles.card_icon}>
-                        <Image src="https://img.icons8.com/office/512/lightning-bolt.png" alt="icono rayo" />
+                        <Image src="https://img.icons8.com/office/512/lightning-bolt.png" alt="icono rayo" width={36} height={36} />
                     </div>
                     
                     <div className={styles.card_icon}>
-                        <Image src="https://img.icons8.com/emoji/512/house-emoji.png" alt="icono casa" />
+                        <Image src="https://img.icons8.com/emoji/512/house-emoji.png" alt="icono casa" width={36} height={36} />
                         <p></p>
                     </div>
                     <div className={styles.card_icon}>
-                        <Image src="https://img.icons8.com/doodle/512/shopping-bag.png" alt="icono bolsa" />
+                        <Image src="https://img.icons8.com/doodle/512/shopping-bag.png" alt="icono bolsa" width={36} height={36} />
                     </div>
                     <div className={styles.card_icon}>
-                        <Image src="https://img.icons8.com/ios-glyphs/512/user.png" alt="icono usuario" />
+                        <Image src="https://img.icons8.com/ios-glyphs/512/user.png" alt="icono usuario" width={36} height={36} />
                     </div>
             </section>
           </footer>

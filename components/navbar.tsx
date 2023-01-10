@@ -72,18 +72,18 @@ export default function navbar() {
             <section className={styles.filter_buttons}>
                 
                     <div className={styles.card_icon}>
-                        <Image src="/public/icono-bolsaDinero.png" alt="icono bolsa de dinero" />
+                        <Image src="https://cdn-icons-png.flaticon.com/512/2857/2857088.png" alt="icono bolsa de dinero" width={36} height={36} />
                     </div>
                     
                     <div className={styles.card_icon}>
-                        <Image src="https://cdn-icons-png.flaticon.com/512/3311/3311693.png" alt="icono reloj" />
+                        <Image src="https://cdn-icons-png.flaticon.com/512/3311/3311693.png" alt="icono reloj" width={36} height={36} />
                     </div>
                     
                     <div className={styles.card_icon}>
-                        <Image src="https://cdn-icons-png.flaticon.com/512/610/610128.png" alt="icono grafico de crecimiento" />
+                        <Image src="https://cdn-icons-png.flaticon.com/512/610/610128.png" alt="icono grafico de crecimiento" width={36} height={36} />
                     </div>
                     <div className={styles.card_icon}>
-                        <Image src="https://cdn-icons-png.flaticon.com/512/603/603148.png" alt="icono grafico torta" />
+                        <Image src="https://cdn-icons-png.flaticon.com/512/603/603148.png" alt="icono grafico torta" width={36} height={36} />
                     </div>
             </section>
             <section className={styles.buttons_text}>
