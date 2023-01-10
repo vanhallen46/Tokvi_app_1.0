@@ -72,7 +72,7 @@ export default function navbar() {
             <section className={styles.filter_buttons}>
                 
                     <div className={styles.card_icon}>
-                        <Image src="https://cdn-icons-png.flaticon.com/512/2857/2857088.png" alt="icono bolsa de dinero" />
+                        <Image src="/public/icono-bolsaDinero.png" alt="icono bolsa de dinero" />
                     </div>
                     
                     <div className={styles.card_icon}>
